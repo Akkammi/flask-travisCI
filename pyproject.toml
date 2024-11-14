@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "itvdn-flask-project-2"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+black = "^24.10.0"
+flask-sqlalchemy = "^3.1.1"
+flask-swagger = "^0.2.14"
+flask-swagger-ui = "^4.11.1"
+marshmallow = "^3.23.1"
+flask-migrate = "^4.0.7"
+flask-jwt-extended = "^4.6.0"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
